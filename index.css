@@ -1,0 +1,102 @@
+
+.header{
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(21, 192, 149);
+}
+
+h1{
+    text-align: center;
+}
+
+.allSections{
+    width: 900px;
+    height: 100%;
+    padding: 10px;
+    border: 10px solid rgb(12, 1, 1);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.sectionTop{
+    width: 400px;
+    height: 100%;
+    padding: 5px;
+    border: 5px solid rgb(165, 12, 12);
+    background-color: rgb(108, 151, 231);
+    display:
+
+}
+
+.art{
+    width: 150px;
+    height: 200px;
+    padding: 5px;
+    border: 5px solid rgb(109, 206, 85);
+    background-color: rgb(9, 54, 136);
+
+
+}
+
+.arts{
+    display:flex
+}
+
+/*
+.sectionLow{
+    width: 400px;
+    height: 100%;
+    padding: 5px;
+    border: 5px solid rgb(109, 206, 85);
+    background-color: rgb(108, 151, 231);
+
+
+}
+
+.pantry{
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(108, 151, 231);
+
+
+
+}
+
+.fridge{
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(232, 69, 69);
+
+}
+
+
+.pantryPhoto{
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(215, 112, 28);
+
+}
+
+.fridgePhoto{
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(70, 0, 75);
+
+}
+
+.art{
+margin: 0;
+padding: 5px;
+background-color: rgb(154, 203, 193);
+}
+
+
+*/
+
+
+img{
+    width: 400px;
+}
