@@ -1,51 +1,77 @@
 
+.headerTop{
+    margin: 0;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 40px;
+    text-align: center;
+}
+
+
 .header{
     margin: 0;
-    padding: 5px;
-    background-color: rgb(21, 192, 149);
+    padding: 0px;
+    background-color: rgb(24, 89, 68);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(197, 236, 131);
+    font-size:x-large;
+    height: 60px;
+    border: 5px solid rgb(2, 12, 0);
+  display: flex;
+  align-items: flex-start;
+  /*WHY DOESNT THIS WORK????????*/
 }
 
 h1{
-    text-align: center;
+
+
 }
 
 .allSections{
     width: 900px;
     height: 100%;
     padding: 10px;
-    border: 10px solid rgb(12, 1, 1);
+    border: 10px solid rgb(255, 255, 255);
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-end;
+    font-family:Arial, Helvetica, sans-serif;
+
 
 }
 
-.sectionTop{
+.section{
     width: 400px;
     height: 100%;
     padding: 5px;
-    border: 5px solid rgb(165, 12, 12);
-    background-color: rgb(108, 151, 231);
-    display:
-
+    border: 5px solid rgb(255, 255, 255);
+    background-color: rgb(253, 253, 253)
 }
 
 .art{
-    width: 150px;
+    width: 180px;
     height: 200px;
-    padding: 5px;
-    border: 5px solid rgb(109, 206, 85);
-    background-color: rgb(9, 54, 136);
+    padding: 20px;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: rgb(153, 201, 172);
+
 
 
 }
 
 .arts{
-    display:flex
+    display:flex;
+
 }
 
-/*
+img{
+    width: 400px;
+    height: 240px
+}
+
+/* DONT NEED
 .sectionLow{
     width: 400px;
     height: 100%;
@@ -95,8 +121,3 @@ background-color: rgb(154, 203, 193);
 
 
 */
-
-
-img{
-    width: 400px;
-}
